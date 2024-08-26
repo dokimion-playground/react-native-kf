@@ -21,6 +21,8 @@ export default () => {
     <View style={styles.headerContainer}>
       <Text style={styles.title}>친구</Text>
 
+      <View style={{ height: 10 }} />
+
       <View style={{ flexDirection: "row" }}>
         <IconButton name="search-outline" />
         <IconButton name="person-add-outline" />
